@@ -1,0 +1,6 @@
+framework module AlbumUbiquity {
+  umbrella header "AlbumUbiquity-umbrella.h"
+
+  export *
+  module * { export * }
+}

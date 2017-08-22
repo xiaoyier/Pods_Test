@@ -1,0 +1,22 @@
+{
+  "name": "AlbumUbiquity",
+  "version": "0.1.0",
+  "summary": "A short description of AlbumUbiquity.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sycamor/AlbumUbiquity",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sycamor": "914359463@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Sycamor/AlbumUbiquity.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AlbumUbiquity/Classes/**/*"
+}

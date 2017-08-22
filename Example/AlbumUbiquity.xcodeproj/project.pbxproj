@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		0D1526B273670CC978AB3B25 /* Pods-AlbumUbiquity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlbumUbiquity_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlbumUbiquity_Example/Pods-AlbumUbiquity_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0E960413ACBA68F398EBBAD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		330EC83346F33EF185F28AD9 /* AlbumUbiquity.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AlbumUbiquity.podspec; path = ../AlbumUbiquity.podspec; sourceTree = "<group>"; };
-		5C91497CCB60230A55AC2C7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0E960413ACBA68F398EBBAD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		330EC83346F33EF185F28AD9 /* AlbumUbiquity.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AlbumUbiquity.podspec; path = ../AlbumUbiquity.podspec; sourceTree = "<group>"; };
+		5C91497CCB60230A55AC2C7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5D3029DEA5497074572DC287 /* Pods_AlbumUbiquity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlbumUbiquity_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* AlbumUbiquity_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbumUbiquity_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TKL7C35FVV;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TKL7C35FVV;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -505,6 +507,7 @@
 			baseConfigurationReference = 0D1526B273670CC978AB3B25 /* Pods-AlbumUbiquity_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKL7C35FVV;
 				INFOPLIST_FILE = AlbumUbiquity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -519,6 +522,7 @@
 			baseConfigurationReference = D214C99DE95C9498D3CE26AB /* Pods-AlbumUbiquity_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKL7C35FVV;
 				INFOPLIST_FILE = AlbumUbiquity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FCAFE71FA7E521784BCFF70C /* Pods-AlbumUbiquity_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TKL7C35FVV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -552,6 +557,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9A9A74D3381407E5F4377ED /* Pods-AlbumUbiquity_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TKL7C35FVV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

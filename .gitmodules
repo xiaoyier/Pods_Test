@@ -1,0 +1,3 @@
+[submodule "AlbumUbiquity/Classes/swift-ubiquity"]
+	path = AlbumUbiquity/Classes/swift-ubiquity
+	url = https://github.com/sagesse-cn/swift-ubiquity.git

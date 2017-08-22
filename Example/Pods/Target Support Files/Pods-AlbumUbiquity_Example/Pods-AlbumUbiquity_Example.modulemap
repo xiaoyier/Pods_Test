@@ -1,0 +1,6 @@
+framework module Pods_AlbumUbiquity_Example {
+  umbrella header "Pods-AlbumUbiquity_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
