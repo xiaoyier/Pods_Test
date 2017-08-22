@@ -8,6 +8,10 @@
 
 import UIKit
 
-class ACAlbumUbiquity: NSObject {
+public class ACAlbumUbiquity: NSObject {
+    
+    public static func show(){
+        debugPrint("展示一张照片")
+    }
 
 }
