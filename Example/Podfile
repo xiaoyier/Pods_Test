@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AlbumUbiquity_Example' do
+  pod 'AlbumUbiquity', :path => '../'
+
+  target 'AlbumUbiquity_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
